@@ -1,0 +1,1 @@
+{ "builds": [ { "src":"readxml.py", "use":"@vercel/python" } ], "routes": [ { "src":"/(.*)", "dest":"readxml.py" } ] }
